@@ -1,0 +1,23 @@
+# Core Libraries
+pandas
+numpy
+
+# Environment Variables Management
+python-dotenv
+
+# Cryptography for Secure Storage
+cryptography
+
+# Prediction Guard API
+langchain
+langchain_predictionguard
+predictionguard
+
+# LangChain Community Extensions
+langchain_community
+
+# Secure HTTP Requests
+requests
+
+# Interactive CLI for Secure Inputs
+getpass4
