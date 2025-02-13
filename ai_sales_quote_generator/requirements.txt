@@ -1,0 +1,3 @@
+fpdf==1.7.2
+predictionguard==2.7.1
+python-dotenv==1.0.0
