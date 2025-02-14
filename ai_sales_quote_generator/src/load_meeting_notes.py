@@ -22,14 +22,18 @@ def load_meeting_notes(file_path='data/meeting_notes.csv'):
         return None
 
 def get_meeting_summary(company_name, df):
-    """Print only the overall summary for a company."""
-    try:
-        result = df[df['company_name'] == company_name]
+    """Return the overall summary for the specified company."""
+    company_name_clean = company_name.strip().lower()
 
-        if not result.empty:
-            print("\n[RESULT] Overall Summary:")
-            print(result.iloc[0]['overall_summary'])
-        else:
-            print(f"[INFO] No meeting notes found for company '{company_name}'.")
-    except Exception as e:
-        print(f"[ERROR] An unexpected error occurred: {e}")
+    # Normalize company names in DataFrame
+    df['company_name'] = df['company_name'].str.strip().str.lower()
+
+    result = df[df['company_name'] == company_name_clean]
+
+    if result.empty:
+        print(f"[DEBUG] '{company_name_clean}' not found in meeting notes.")
+        return None
+
+    overall_summary = result['overall_summary'].values[0].strip()
+    print(f"[RESULT] Overall Summary for '{company_name}':\n{overall_summary}")
+    return overall_summary
