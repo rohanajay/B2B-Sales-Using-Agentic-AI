@@ -1,0 +1,105 @@
+Meeting 1 - University IT Department
+Date: 2025-02-10
+Time: 10:00 AM EST
+
+PG Salesperson: Thank you for taking the time to meet with us today. Could you share how AI is currently being used in your university's IT infrastructure?
+
+Client: We have a significant faculty and student adoption of AI-powered chat tools, mostly tied to our existing cloud infrastructure. However, we are concerned about data privacy and the long-term cost of these solutions.
+
+PG Salesperson: That makes sense. Prediction Guard offers self-hosted AI solutions that ensure complete data security. Since your university handles sensitive data, our platform can be deployed on-premises, eliminating the risk of third-party access.
+
+Client: That’s interesting. Cost is another major concern—we cannot justify per-user fees for an enterprise AI model across thousands of students and faculty.
+
+PG Salesperson: Understood. Our model is optimized for running efficiently on Intel® Gaudi® 2 processors, which significantly reduces operational costs. We can also customize deployment models to fit your budget.
+
+Client: That sounds promising. Could you provide more details on how this would integrate with our current setup?
+
+PG Salesperson: Absolutely. I’ll send over documentation and set up a technical deep dive with your IT team.
+
+Meeting 2 - Manufacturing Software Provider
+Date: 2025-02-12
+Time: 2:30 PM PST
+
+PG Salesperson: Thanks for taking the time to meet. Could you tell us about your AI requirements?
+
+Client: We specialize in Manufacturing Execution Systems (MES) for aerospace and defense. We want to integrate a custom GPT model into our internal support systems.
+
+PG Salesperson: Prediction Guard can help with that. We offer tailored LLM solutions, and since you’re dealing with sensitive defense-related data, our self-hosted AI deployment would be a good fit for your security requirements.
+
+Client: Yes, self-hosting is crucial for us. We can’t afford to have our data processed on third-party cloud services.
+
+PG Salesperson: That’s exactly what we focus on. Our models can run within your secure infrastructure, ensuring data never leaves your environment. We also have built-in safeguards against hallucinations and incorrect AI-generated outputs, which is essential for mission-critical industries like aerospace.
+
+Client: That sounds great. What’s the process for a pilot deployment?
+
+PG Salesperson: We’ll send you a pilot agreement and relevant documentation. You can test our solution in a sandbox before full deployment.
+
+Client: Perfect. I’ll discuss this internally with our CTO and legal team.
+
+
+Meeting 3 - Healthcare Analytics Firm
+Date: 2025-02-14
+Time: 11:00 AM CST
+
+PG Salesperson: It’s great to connect today. What are your key AI priorities in healthcare analytics?
+
+Client: We’re focused on predictive modeling for patient risk analysis. The challenge is ensuring compliance with HIPAA and other healthcare regulations.
+
+PG Salesperson: Prediction Guard has HIPAA-compliant AI solutions. Our models are designed to function without storing any patient data, ensuring complete security and compliance.
+
+Client: That’s a major concern for us. We also need AI-driven dashboards for real-time patient health monitoring.
+
+PG Salesperson: Our platform integrates easily with existing healthcare analytics tools. We can provide explainable AI models that allow doctors to trust AI-driven risk assessments.
+
+Client: That’s interesting. Do you offer any built-in bias detection?
+
+PG Salesperson: Yes. Our models are built with bias mitigation techniques, reducing disparities in AI decision-making.
+
+Client: That sounds exactly like what we need. Let’s schedule a demo for our compliance and technical teams.
+
+PG Salesperson: Absolutely. I’ll send over an invite and more details.
+
+
+Meeting 4 - Financial Services Company
+Date: 2025-02-15
+Time: 3:45 PM EST
+
+PG Salesperson: Thank you for meeting with us. Can you share what challenges you’re facing with AI adoption?
+
+Client: We are looking for AI-powered fraud detection but have concerns about false positives and security risks.
+
+PG Salesperson: Prediction Guard has been used in financial risk assessment by major institutions. Our models are designed to reduce false positives while maintaining high detection accuracy.
+
+Client: That’s a major issue for us. We also need complete auditability of AI decisions.
+
+PG Salesperson: Our models support transparent decision-making with fully explainable outputs. You can trace every AI-generated response back to its reasoning.
+
+Client: That’s valuable. Do you have references from other financial clients?
+
+PG Salesperson: Yes, I’ll send over case studies. We also offer a pilot program to test our AI with your fraud detection data.
+
+Client: Sounds good. Send me the details, and I’ll coordinate with our security team.
+
+
+
+Meeting 5 - E-commerce Technology Provider
+Date: 2025-02-18
+Time: 9:00 AM PST
+
+PG Salesperson: Glad we could meet today. How does your team currently use AI for e-commerce personalization?
+
+Client: We use AI to recommend products, but we struggle with accuracy and trustworthiness in AI-generated recommendations.
+
+PG Salesperson: Prediction Guard specializes in AI reliability and security. Our platform ensures recommendations are free from hallucinations and bias, making them more trustworthy.
+
+Client: That’s interesting. We also need real-time customer sentiment analysis.
+
+PG Salesperson: We provide LLMs that can analyze customer reviews, support chat logs, and sales data in real time, delivering actionable insights on customer sentiment.
+
+Client: That’s exactly what we need. Does your system support API-based integration?
+
+PG Salesperson: Absolutely. We offer plug-and-play API solutions that integrate with existing e-commerce platforms.
+
+Client: Great! Let’s discuss next steps.
+
+PG Salesperson: I’ll send over API documentation and set up a demo.
