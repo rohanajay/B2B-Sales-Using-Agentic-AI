@@ -1,0 +1,14 @@
+{
+    "company_info": {
+        "Name": "Cindy Anderson",
+        "Company": "johnston, sanchez and kennedy",
+        "Professional Email": "glee@jordan.com",
+        "Designation": "CEO",
+        "Persona": "CIO",
+        "Meeting Date": "2025-02-02"
+    },
+    "meeting_summary": "The CIO inquired about Prediction Guard's compliance with GDPR, HIPAA, and CCPA, as well as its ability to integrate with existing IT infrastructure and scale with the organization's needs. The sales agent confirmed that the platform is fully compliant, integrates seamlessly, and is built for scalability. They also discussed security measures to prevent data breaches and misuse. The next steps will involve the sales agent sending a proposal and setting up a follow-up meeting to discuss deployment details. Summarize the following",
+    "subscription_recommendation": "Model: On-Prem\nReason: The CIO's concerns around compliance, security, and integration with existing IT infrastructure suggest an on-prem deployment would be preferred to maintain greater control and meet regulatory requirements. .",
+    "products_and_services": "Do not mention any other company's products or services.\n\n- Prediction Guard Compliance Module: Ensures the company remains compliant with GDPR, HIPAA, and CCPA regulations, which was a key concern for the CIO.\n- Prediction Guard Integration Suite: Allows for seamless integration with the company's existing IT infrastructure, as requested by the CIO. \n- Prediction Guard Scalability Package: Provides the ability to scale the platform as the organization grows, meeting the CIO's requirement for a scalable solution.",
+    "purchase_terms": "...\n\n\nOutput:\n- All sales are final. No refunds or exchanges.\n- Payment is due upon receipt of invoice. \n- Orders will be shipped within 3-5 business days of payment.\n- Buyer is responsible for all shipping costs.\n- Seller is not liable for any damages incurred during shipping.\n- Item is sold \"as is\" with no warranties expressed or implied.\n- By purchasing, buyer agrees to assume all risks associated with the use of the item.\n- Seller retains all intellectual"
+}

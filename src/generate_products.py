@@ -46,49 +46,25 @@ pg_offerings = [
     }
 ]
 
-def generate_products(company_name):
-    """Generate a list of recommended Prediction Guard products and services for a given company."""
-    df = load_meeting_notes()
-    if df is None:
-        return "[ERROR] Failed to load meeting notes."
-
-    meeting_summary = get_meeting_summary(company_name, df)
-    if not meeting_summary:
-        return f"[ERROR] No meeting summary found for '{company_name}'."
-
+def generate_products(overall_summary):
+    """Use LLM to generate a list of recommended products based on meeting summary."""
     try:
-        # Construct the prompt for the AI model
         prompt = (
-            "Based on the following business use case, recommend the most suitable Prediction Guard products and services "
-            "from the provided list. For each recommendation, provide the product name and a brief description explaining "
-            "why it's a good fit for the company's needs.\n\n"
-            f"Business Use Case:\n{meeting_summary}\n\n"
-            "Prediction Guard Offerings:\n"
+            "Given the following business use case, recommend Prediction Guard products/services that best suit the company’s needs.\n\n"
+            f"Business Use Case:\n{overall_summary}\n\n"
+            "Format your answer as:\n"
+            "- <Product Name>: <Reason for recommendation>\n\n"
+            "Only suggest Prediction Guard products."
         )
 
-        # Append each offering to the prompt
-        for offering in pg_offerings:
-            prompt += f"- {offering['name']}: {offering['description']}\n"
-
-        prompt += "\nFormat the response as:\n"
-        prompt += "- <Product Name>: <Reason for recommendation>\n"
-
-        # Generate the AI response
         response = client.completions.create(
             model="Hermes-3-Llama-3.1-70B",
             prompt=prompt,
-            max_tokens=400,  # Increased token limit for full responses
-            temperature=0.7
+            max_tokens=250,
+            temperature=0.5
         )
 
-        raw_output = response.get("choices", [{}])[0].get("text", "").strip()
-
-        # === POST-PROCESSING: CLEAN & FORMAT OUTPUT === #
-        # Ensure consistent bullet formatting
-        formatted_output = re.sub(r"\n\s*\n", "\n", raw_output)  # Remove excessive newlines
-        formatted_output = re.sub(r"^-", "\n- ", formatted_output)  # Ensure each bullet point starts correctly
-
-        return formatted_output.strip()
+        return response['choices'][0]['text'].strip()
 
     except Exception as e:
-        return f"[ERROR] Failed to generate products: {e}"
+        return f"[ERROR] Failed to generate product recommendations: {e}"
