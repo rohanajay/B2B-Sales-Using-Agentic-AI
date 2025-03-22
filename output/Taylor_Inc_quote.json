@@ -1,0 +1,14 @@
+{
+    "company_info": {
+        "Name": "Allison Hill",
+        "Company": "taylor inc",
+        "Professional Email": "garzaanthony@robinson.org",
+        "Designation": "Head of Security",
+        "Persona": "Engineer",
+        "Meeting Date": "2025-01-02"
+    },
+    "meeting_summary": "The engineer inquired about integrating Prediction Guard with LangChain workflows, on-premise deployments, model customization, and retrieval augmentation. The sales agent confirmed that Prediction Guard supports LangChain and LlamaIndex integrations, self-hosted deployments for data security, single-tenant model customization, and secure data integration without exposing it externally. They agreed to set up a technical demo to further explore the capabilities. The sales agent will share the technical requirements after the call. Summarize the following meeting notes in",
+    "subscription_recommendation": "Model: On-Prem\nReason: The engineer requires self-hosted deployments for data security, single-tenant model customization, and secure data integration without exposing it externally, which are all supported by Prediction Guard's on-premise subscription model. .",
+    "products_and_services": "Do not mention any other company names.\n\nPrediction Guard Secure: Best suited for on-premise deployments to ensure data security and privacy. Supports integration with LangChain and LlamaIndex for customized workflows.\n\nPrediction Guard Custom: Offers single-tenant model customization to tailor the AI system to the company's specific needs and use cases. \n\nPrediction Guard Connect: Enables secure data integration and retrieval augmentation without exposing sensitive data externally. Facilitates seamless integration with existing data sources and systems. Given the following business use case",
+    "purchase_terms": "...\n\nPurchase Terms:\n- Payment due within 30 days of invoice date\n- 3% discount if paid within 10 days\n- FOB shipping point, buyer responsible for freight costs\n- Title transfers upon delivery\n- Seller warrants product for 1 year from delivery\n- Buyer may return product within 30 days for full refund\n- Governing law is [Seller State] law\n- Any disputes shall be resolved in [Seller City] courts\n\nAdditional Terms:\n- Custom term"
+}
