@@ -1,2 +1,2 @@
-# pg-sales-agent
-Prediction Guard Sales Agent
+# Sales Agent which Qualifies a lead and generates summary basis the meeting notes
+
